@@ -1,0 +1,148 @@
+:root{
+    --verde: #1CD1B0;
+    --azul: #00669F;
+    --gris: #F3F3F3;
+    --button: #
+}
+
+*{
+    margin: 0;
+    border: 0;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+body .top{
+    background-color: var(--verde);
+    padding: 4px 30px;
+    font-size: 22px;
+    font-weight: 500;
+    top: 0;
+}
+header{
+    position: sticky;
+    z-index: 1;
+    top: 0;
+}
+
+header h1{
+    background-color: var(--azul);
+    color: white;
+    font-weight: 400;
+    padding: 12px 30px;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.6);
+    margin-bottom: 44px;
+    
+}
+
+.fas.fa-plus-circle {
+    color: var(--azul);
+    font-size: 46px;
+    position: fixed;
+    top: 500px;
+    right: 20px;   
+}
+
+.card{ 
+    max-width: 400px;
+    width: 700px;
+    height: 640px;
+    margin: 0 auto;
+    background-color: var(--gris);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    margin-bottom: 50px;
+    
+
+}
+.image{
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 210px;
+    z-index: -10;
+    border-radius: 30px 30px 0 0;
+    background-position: right center;
+}
+
+.imagen-1{
+    background-image: url("../assets/img/bg-batman.png");
+}
+
+.imagen-2{
+    background-image: url("../assets/img/bg-wonderw.jpg");
+}
+
+.imagen-3{
+    background-image: url("../assets/img/bg-superman.jpg");
+}
+
+.texto{
+    position: relative;
+    text-align: center;
+    
+}
+
+.profile{
+    width: 180px;
+    height: 180px;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    position: absolute;
+    top: -100px;
+    left: 27%;
+    z-index: 0;
+    box-shadow: 1px 2px 6px rgb(0 0 0 / 80%);
+}
+.batman{
+    background-image: url("../assets/img/batman.jpg");
+    background-size: 250%;
+    background-position: -163px 0px;
+}
+
+.wonderwomen{
+    background-image: url("../assets/img/wonderw.jpg");
+    background-position: top center;
+    background-size: cover;
+}
+
+.superman{
+    background-image: url("../assets/img/superman.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+
+h2 {
+    padding-top: 105px;
+    font-weight: 400;
+    font-size: 35px;
+}
+.texto p {
+    padding: 21px;
+    font-size: 1.29em;
+    color: #333333;
+    text-align: left;
+    margin-bottom: 30px;
+}
+.texto a{
+    background-color: var(--azul);
+    color: white;
+    padding: 14px 50px;
+    font-size: 1.25rem;
+    border-radius: 5px;
+}
+.texto a:hover {
+    background-color: var(--verde);
+}
+
+img.corazon {
+    padding: 20px;
+    width: 30px;
+}
+footer{
+    background-color: var(--azul);
+    color: white;
+    text-align: center;
+    padding: 30px;
+
+}
